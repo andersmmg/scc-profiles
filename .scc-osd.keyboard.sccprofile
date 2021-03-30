@@ -1,0 +1,61 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "button(Keys.KEY_ENTER)"
+        }, 
+        "B": {
+            "action": "button(Keys.KEY_ESC)"
+        }, 
+        "C": {
+            "action": "OSK.close()"
+        }, 
+        "LB": {
+            "action": "button(Keys.KEY_BACKSPACE)"
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_LEFTSHIFT)"
+        }, 
+        "LPAD": {
+            "action": "OSK.press(LEFT)"
+        }, 
+        "RB": {
+            "action": "button(Keys.KEY_SPACE)"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_RIGHTALT)"
+        }, 
+        "RPAD": {
+            "action": "OSK.press(RIGHT)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_TAB)"
+        }, 
+        "X": {
+            "action": "OSK.close()"
+        }, 
+        "Y": {
+            "action": "OSK.close()"
+        }
+    }, 
+    "cpad": {}, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "action": "OSK.cursor(LEFT)"
+    }, 
+    "pad_right": {
+        "action": "OSK.cursor(RIGHT)"
+    }, 
+    "stick": {
+        "action": "mode(RGRIP, OSK.move(), dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT)))"
+    }, 
+    "trigger_left": {
+        "action": "trigger(50, button(Keys.KEY_LEFTSHIFT))"
+    }, 
+    "trigger_right": {
+        "action": "trigger(50, button(Keys.KEY_LEFTCTRL))"
+    }, 
+    "version": 1.4
+}
