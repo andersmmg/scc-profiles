@@ -6,8 +6,8 @@
             "name": "Jump"
         }, 
         "B": {
-            "action": "button(Keys.KEY_T)", 
-            "name": "Gadget Mode"
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Cancel"
         }, 
         "BACK": {
             "action": "button(Keys.KEY_M)", 
@@ -46,22 +46,21 @@
             "name": "Pulse"
         }, 
         "Y": {
-            "action": "button(Keys.KEY_ESC)"
+            "action": "button(Keys.KEY_T)", 
+            "name": "Gadget Mode"
         }
     }, 
     "cpad": {
         "action": "mouse()"
     }, 
-    "gyro": {
-        "action": "mode(RPADTOUCH, sens(1.0, -1.0, mouse(YAW)), None)"
-    }, 
+    "gyro": {}, 
     "is_template": false, 
     "menus": {}, 
     "pad_left": {
         "action": "sens(-1.0, ball(XY(mouse(Rels.REL_HWHEEL, 1), mouse(Rels.REL_WHEEL))))"
     }, 
     "pad_right": {
-        "action": "smooth(8, 0.78, 2.0, feedback(RIGHT, 144.0, ball(mouse())))"
+        "action": "smooth(7, 0.78, 2, feedback(RIGHT, 144, sens(2.0, 2.0, ball(mouse()))))"
     }, 
     "stick": {
         "action": "dpad(button(Keys.KEY_UP), button(Keys.KEY_DOWN), button(Keys.KEY_LEFT), button(Keys.KEY_RIGHT))"
